@@ -1,0 +1,38 @@
+body{
+  background-color: #f1d27d;
+  font-family: monospace;
+}
+img{
+  width:150px;
+  height:150px;
+  border-radius: 60%;
+}
+button{
+  background-color: darksalmon;
+  color: azure;
+  font-size: 30px;
+  font-family: monospace;
+  border: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 30px;
+}
+button:hover{
+  background-color: aqua;
+  color: brown;
+}
+.container{
+  background-color:#7accff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+li{
+  font-size: 35px;
+  color: azure;
+}
+.container:hover{
+  background-color: palevioletred;
+}
